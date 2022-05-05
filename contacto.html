@@ -1,0 +1,127 @@
+
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Contacto</title>
+		<link rel="stylesheet" href="css/styles.css" />
+		
+		<script src="scripts/html5shiv.js"></script>
+		
+		<script src="scripts/details-shim.min.js"></script>
+		<link rel="stylesheet" href="scripts/details-shim.min.css" />
+	</head>
+<body>
+	<header>
+		<div id="menu">
+			<h1 id="contacto">Contacto</h1>
+			<nav  class="menu">
+				<ul>
+					<li><a href="index.html">home</a></li>
+					<li id="lista"><a href="destacado.html">destacado</a>
+						<ul id="absoluto">
+							<li><a href="#cementerio">cementerio</a></li>
+							<li><a href="#ateneo"> El ateneo</a></li>
+							<li><a href="#museo">Museo</a></li>
+							<li><a href="#plaza">Plaza francia</a></li>
+							<li><a href="#biblioteca">Biblioteca</a></li>
+						</ul>
+					</li>
+					<li><a href="info.html">info</a></li>
+					<li><a href="contacto.html">contacto</a></li>
+				</ul>
+			</nav>
+		</div>
+    </header>
+	<main>
+	    <section class="form-contacto">
+            <h2>¿Quieres conocer más de la ciudad?</h2>
+            <p>El Museo Nacional de Bellas Artes presenta “Pandemia”, la obra más reciente de Marta Minujín, la embajadora del arte argentino y un ícono internacional del arte de vanguardia ,la exposición podrá ser visitada a partir del 17 de junio hasta 5 de Respetando los protocolos vigentes, te invitamos a realizar tu reserva completando el siguiente formulario.</p>
+            <div class="formulario">
+                
+                <form action="#" method="POST">
+                    <div class="nombre">
+                        <input type="text" name="nombre" id="nombre" placeholder="Nombre" />
+                    </div>
+                    <div class="apellido">
+                        <input type="text" name="apellido" id="apellido" placeholder="Apellido" />
+                    </div>
+                    <div class="email">
+                        <input type="password" name="email" id="email" placeholder="Email" />
+                    </div>
+                    <div class="telefono">
+                        <input type="tel" name="telefono" id="telefono" placeholder="Telefono" />
+                    </div>
+                    <div class="mensaje">
+                        <textarea name="mensaje" id="mensaje" placeholder="Consulta"></textarea>
+                    </div>
+                     <div class="genero">
+                        <span>Tu genero:</span>
+                        <label for="femenino">Femenino</label>
+                        <input id="femenino" checked="checked" type="radio" name="genero" value="femenino" />
+
+                        <label for="masculino">Masculino</label>
+                        <input id="masculino" type="radio" name="genero" value="masculino" />
+                    </div>
+                    <div class="nacionalidad">
+                        <span>Nacionalidad:</span>
+                        <select name="pais">
+                            <optgroup label="America">
+                                <option>Mexico</option>
+                                <option selected="selected">Argentina</option>
+                                <option>Brasil</option>
+                                <option>Perú</option>
+                                <option>Colombia</option>
+                                <option>Paraguay</option>
+                            </optgroup>
+                            <optgroup label="Europa">
+                                <option>España</option>
+                                <option>Italia</option>
+                                <option>Alemania</option>
+                            </optgroup>
+                            <optgroup label="Asia">
+                                <option>Japón</option>
+                                <option>China</option>
+                            </optgroup>
+                            <optgroup label="Africa">
+                                <option>Nigeria</option>
+                            </optgroup>
+                        </select>
+                    </div>
+                   
+                    <div class="terminos">
+                        <input type="checkbox" id="acepto" name="acepto" value="si" />
+                        <label for="acepto">Acepto todos los terminos y condiciones</label>
+                    </div>
+                    <div class="enviar">
+                        <input type="submit" value="Enviar">
+                    </div>
+	            </form> 
+            </div>
+	        
+	        <div class="video">
+	            <iframe  src="https://www.youtube.com/embed/EG1yXBmbGug" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	        </div>
+	    </section>
+	</main>
+	<footer>
+		<div class="foo-img">
+		    <img src="imagenes/ciudad.png" alt="footer final pagina" />
+		</div>
+		<details>
+			<summary><span>&copy; Copyright 2021</span></summary>
+			<div>
+				<p><span>Alumno:</span>Paradis Julian</p>
+				<p><span>Profesor:</span> Mabel garcia</p>
+				<p><span>Comisión:</span>Mañana "A"</p>
+			</div>
+		</details>
+
+		<ul>
+			<li><a id="fb" href="#"></a></li>
+			<li><a id="tw" href="#"></a></li>
+			<li><a id="inst" href="#"></a></li>
+		</ul>
+	</footer>
+</body>
+</html>

@@ -1,0 +1,539 @@
+* {
+	margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: san-serif;
+}
+
+header {
+    background:#D9C5A0;
+    width: 100%;
+    margin: auto;
+}
+#D9C5A0
+header div {
+    width: 1200px;
+    margin: auto;
+    position: relative;
+}
+ header div #home {
+     background: url(../imagenes/request3.jpg);
+     height: 400px;
+     width: 1200px;
+     margin: auto;
+     font-size: 0;
+ }
+
+ header div #destacado {
+     background: url(../imagenes/recoleta3.jpg);
+     height: 400px;
+     width: 1200px;
+     margin: auto;
+     font-size: 0;
+ }
+
+header div #info {
+     background: url(../imagenes/after-hours3.jpg);
+     height: 400px;
+     width: 1200px;
+     margin: auto;
+     font-size: 0;
+ }
+
+header div #contacto {
+     background: url(../imagenes/florais.jpg);
+     height: 400px;
+     width: 1200px;
+     margin: auto;
+     font-size: 0;
+ }
+
+header nav {
+    width: 100%;
+    margin: auto;
+	position: absolute;
+    top: 0;
+	background-color: #bdb8b849;
+	opacity: 0,8;
+    text-align: center;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+
+}
+
+header nav ul li {
+    width: 80px;
+	list-style: none;
+	display: inline-block;
+	margin-right:20px;
+}
+
+header nav ul li a {
+    display: block;
+	text-decoration: none;
+	padding:10px 0px 10px 0px;
+	text-align: center;
+	background: #252526;
+	color:white;
+}
+
+header nav ul li a:hover {
+	background: cornsilk;
+	color: black;
+}
+
+#lista {
+    display: inline-block;
+    position: relative;
+}
+
+#absoluto{
+    position: absolute;
+    z-index: 1;
+    display: none;
+}
+
+#absoluto > li{
+	display:block;
+
+
+}
+ul #lista:hover #absoluto{
+	display:block;
+}
+
+main {
+    width: 1200px;
+    margin: auto;
+    font-family: san-serif;
+/*    border: 1px solid red;*/
+    padding-bottom: 10px;
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.95);
+}
+
+main section p {
+    padding: 0 10px 0 10px;
+}
+
+.home-barrio {
+
+}
+
+.home-barrio h2, .caracteristicas h2 {
+    padding: 10px 0 10px 0;
+}
+
+.home-barrio div:nth-child(2) {
+    width: 600px;
+    float: right;
+    display: inline-block;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.home-barrio .video iframe{
+    width:  560px;
+	height:  315px;
+	border:3px outset #AB9881 ;
+}
+
+
+
+.caracteristicas-texto, .caracteristicas-texto-dos {
+    font-size: 20px;
+    line-height: 30px;
+	padding:10px;
+	
+}
+.caracteristicas-texto-dos {
+	-webkit-column-count:3;
+	   -moz-column-count:3;
+	        column-count:3;
+	-webkit-column-gap:100px;
+	   -moz-column-gap:100px;
+	        column-gap:100px;
+			-webkit-column-rule:solid 1px grey;
+			   -moz-column-rule:solid 1px grey;
+			        column-rule:solid 1px grey;
+			margin-left:20px;		
+}
+
+.sliders-home {
+    margin: 10px auto 10px auto;
+    background-color:#A9B1A1;
+    width: 1050px;
+    padding: 30px;
+}
+
+.slider{
+  position: relative;
+  width: 984px;
+  height: 400px;
+}
+
+.slider li {
+    position: absolute;
+    opacity: 0;
+    transition: opacity .5s;
+    background:#fff;
+    list-style: none;
+}
+
+ul.slider li img{
+  width: 984px;
+  height: 400px;
+
+}
+
+ul.slider li:first-child {
+    opacity: 1;
+}
+
+ul.slider li:target {
+    opacity: 1;
+}
+
+.menu-slide{
+    text-align: center;
+    margin: 20px;
+}
+
+.menu-slide li{
+    display: inline-block;
+    text-align: center;
+    list-style: none;
+}
+
+.menu-slide li a{
+    display: inline-block;
+    color:white;
+    text-decoration: none;
+    background-color: grey;
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 100%;
+
+}
+
+
+h2 {
+    font-size: 45px;
+    color: #3F595A;
+    text-align: center;
+}
+
+h3 {
+    font-size: 22px;
+    text-align: center;
+    color: #3F595A;
+}
+
+p {
+    font-size: 18px;
+}
+
+
+
+/* DESTACADO */
+.destacado {
+    width: 100%;
+}
+
+.destacado article div {
+    height: 250px;
+    
+}
+
+.destacado h2 {
+    color: #3F595A;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.destacado p {
+    color: #3F595A;
+    line-height: 25px;
+}
+
+.destacado article h3 {
+    padding: 10px 0 10px 10px;
+    color:#FFFFFF;
+    font-size:25px;
+}
+.destacado-left {
+    display: flex;
+    border:	6px outset #AB9881;
+    width: 90%;
+    background-color:#A7CFCE;
+    margin: 30px 0 30px 0;
+}
+
+.cementerio-texto, .museo-texto {
+	color: #D6D4C7;
+	display: inline-block;
+	margin-left: 20px;
+}
+
+.destacado-right {
+    width: 90%;
+    border:	5px outset #AB9881;
+    background-color: #A7CFCE;
+    margin-bottom: 30px;
+    float: right;
+}
+
+.destacado-right .content {
+    display: flex;
+}
+
+.ateneo-texto {
+	color: #3F595A;
+	display: inline-block;
+	margin-left: 20px;
+}
+
+/*FIN DESTACADO */
+
+/*INFORMACIÓN*/
+
+.informacion {
+    margin: 0 30px 0 30px;
+	 
+}
+
+.informacion > div p{
+    text-align: center;
+	color:#262626;
+    line-height: 25px;
+	font-size:20px;
+	
+}
+
+.informacion div {
+    padding: 10px;
+}
+
+.informacion > div h2 {
+    padding: 20px 0 15px 0;
+	font-size:50px;
+}
+	
+}
+.informacion div p {
+    padding: 5px;
+	
+    
+}
+
+
+.historia {
+    display: flex;
+    justify-content: space-between;
+}
+
+.historia div {
+    width: 550px;
+    border:	5px outset #AB9881;
+    display: inline-block;
+    background-color:#F2F2F2;
+}
+
+.historia div img {
+    margin:  15px auto 15px auto;
+    width: 500px;
+    display: block;
+    
+}
+
+.tours .head, .vida-nocturna .head {
+    text-align: center;
+    padding: 15px 0 15px 0;
+	
+}
+.head  p {
+	text-align: center;
+	color:#262626;
+    line-height: 25px;
+	font-size:20px;
+}
+
+.tours .content, .vida-nocturna .content {
+    display: flex;
+    justify-content: space-around;
+    width: 900px;
+    margin: auto;
+}
+
+.content article p span {
+    font-weight: bold;
+}
+
+.tours div article, .vida-nocturna div article {
+    width: 250px;
+    border:3px outset #3F595A;
+    padding: 5px;
+    background-color:#8AA6A3;
+	color:#FFFFFF;
+}
+
+.tours div article h3,.vida-nocturna div article h3 {
+    text-align: center;
+	color:#FFFFFF;
+	
+}
+
+.tours div article img, .vida-nocturna div article img {
+    margin:  auto;
+    width: 225px;
+    display: block;
+    padding: 10px 0 10px 0;
+}
+
+/*FIN INFORMACIÓN */
+
+/*CONTACTO*/
+
+
+.form-contacto h2 {
+    padding: 15px 0 15px 0;
+}
+
+.form-contacto p {
+    padding-bottom: 15px;
+}
+
+.form-contacto div{
+    display: inline-block;
+    
+}
+
+.formulario {
+    display: inline-block;
+    width: 560px;
+    margin-right: 20px;
+    margin-left: 25px;
+}
+
+.nombre input, .apellido input, .email input, .telefono input{
+    border: 1px solid #3F595A;
+    padding: 5px 10px;
+    width: 277px;
+    outline: none;
+    margin-bottom: 10px;
+}
+
+.mensaje textarea {
+    width: 558px;
+    height: 200px;
+    border: 1px solid #3F595A;
+    padding: 5px;
+    outline: none;
+}
+
+.nacionalidad {
+    width: 200px;
+    margin-top: 10px;
+    float: right;
+}
+
+option {
+    padding: 10px;
+}
+
+select {
+	padding: 5px;
+}
+
+.genero {
+    width: 300px;
+    margin-top: 10px;
+    float: left;
+}
+
+.genero span {
+    font-weight: bold;
+}
+
+.terminos {
+    margin-top: 10px;
+    margin-left: 200px;
+}
+
+.enviar {
+    float: left;
+    margin-top: 10px;
+}
+
+.enviar input {
+    padding: 5px 15px;
+    border: none;
+    background: #3F595A;
+    color: #FFF;
+    cursor: pointer;
+    font-size: 18px;
+
+    
+}
+
+
+
+.video iframe {
+    width: 560px;  
+    height: 340px;
+    border: 0;
+}
+
+/*FIN CONTACTO*/
+
+footer {
+    background: black;
+    padding: 15px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer ul {
+
+}
+
+footer ul li {
+    display: inline-block;
+    list-style: none;
+    margin-right: 20px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+details div p span {
+    font-weight: bold;
+}
+
+#fb {
+	background-image:url(../imagenes/fb1.png);
+	background-repeat: no-repeat;
+    height: 32px;
+    width: 32px;
+}
+
+#tw {
+	background-image: url(../imagenes/tw2.png);
+	background-repeat: no-repeat;
+    height: 32px;
+    width: 32px;
+}
+
+#inst {
+	background-image:url(../imagenes/inst4.png);
+	background-repeat: no-repeat;
+    height: 32px;
+    width: 32px;
+}
